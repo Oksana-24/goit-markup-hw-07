@@ -13,6 +13,8 @@
 }
 
 .main-nav {
+@extend %list;
+
     display: flex;
     gap: 50px;
 
@@ -52,6 +54,8 @@
 }
 
 .auth-nav {
+    @extend %list;
+    
     display: flex;
     gap: 50px;
 }
