@@ -13,8 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
 
   <body class="body-portfolio">
@@ -66,30 +65,30 @@
     <!-- Унікальний контент -->
     <main>
       <!-- Портфоліо -->
-      <section class="main-portfolio section">
+      <section class="portfolio section">
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list-button list">
-            <li class="button-portfolio-linlk">
-              <button class="button-portfolio" type="button">Усі</button>
+          <ul class="portfolio-button__list list">
+            <li class="portfolio-button__link">
+              <button class="portfolio-button" type="button">Усі</button>
             </li>
-            <li class="button-portfolio-linlk">
-              <button class="button-portfolio" type="button">Веб-сайти</button>
+            <li class="portfolio-button__link">
+              <button class="portfolio-button" type="button">Веб-сайти</button>
             </li>
-            <li class="button-portfolio-linlk">
-              <button class="button-portfolio" type="button">Додатки</button>
+            <li class="portfolio-button__link">
+              <button class="portfolio-button" type="button">Додатки</button>
             </li>
-            <li class="button-portfolio-linlk">
-              <button class="button-portfolio" type="button">Дизайн</button>
+            <li class="portfolio-button__link">
+              <button class="portfolio-button" type="button">Дизайн</button>
             </li>
-            <li class="button-portfolio-linlk">
-              <button class="button-portfolio" type="button">Маркетинг</button>
+            <li class="portfolio-button__link">
+              <button class="portfolio-button" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="list-images-portfolio list">
+          <ul class="portfolio-images__list list">
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/web-site.jpg"
                     alt="Зображення ноутбука"
@@ -101,15 +100,15 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Технокряк</h2>
-                  <p class="text-portfolio">Веб-сайт</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">Технокряк</h2>
+                  <p class="box-description__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/poster.jpg"
                     alt="Два баскетболіста"
@@ -121,17 +120,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">
+                <div class="box-description">
+                  <h2 class="box-description__title">
                     Постер <span>New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="text-portfolio">Дизайн</p>
+                  <p class="box-description__text">Дизайн</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/seafood.jpg"
                     alt="Логотип ресторану"
@@ -143,15 +142,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Ресторан <span>Seafood</span></h2>
-                  <p class="text-portfolio">Додаток</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">
+                    Ресторан <span>Seafood</span>
+                  </h2>
+                  <p class="box-description__text">Додаток</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/headphone.jpg"
                     alt="Навушники"
@@ -163,15 +164,15 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Проєкт Prime</h2>
-                  <p class="text-portfolio">Маркетинг</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">Проєкт Prime</h2>
+                  <p class="box-description__text">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img src="./images/boxes.jpg" alt="Дві коробки" width="370" />
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -179,15 +180,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Проєкт <span>Boxes</span></h2>
-                  <p class="text-portfolio">Додаток</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">
+                    Проєкт <span>Boxes</span>
+                  </h2>
+                  <p class="box-description__text">Додаток</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/inspirarion.jpg"
                     alt="Монітор"
@@ -199,17 +202,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">
+                <div class="box-description">
+                  <h2 class="box-description__title">
                     <span>Inspiration has no Borders</span>
                   </h2>
-                  <p class="text-portfolio">Веб-сайт</p>
+                  <p class="box-description__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/limited-edition.jpg"
                     alt="Журнал"
@@ -221,15 +224,17 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Видання Limited Edition</h2>
-                  <p class="text-portfolio">Дизайн</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">
+                    Видання Limited Edition
+                  </h2>
+                  <p class="box-description__text">Дизайн</p>
                 </div>
               </a>
             </li>
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/project-lab.jpg"
                     alt="Реклама проекту"
@@ -241,16 +246,18 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio">Проєкт <span>lab</span></h2>
-                  <p class="text-portfolio">Маркетинг</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">
+                    Проєкт <span>lab</span>
+                  </h2>
+                  <p class="box-description__text">Маркетинг</p>
                 </div>
               </a>
             </li>
 
             <li>
-              <a class="link-images-portfolio" href="#">
-                <div class="link-images-wrapper">
+              <a class="portfolio-images__href" href="#">
+                <div class="portfolio-images__wrapper">
                   <img
                     src="./images/growing-business.jpg"
                     alt="Людина друкує на ноутбуці"
@@ -262,9 +269,11 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="box-images">
-                  <h2 class="title-portfolio"><span>Growing Business</span></h2>
-                  <p class="text-portfolio">Додаток</p>
+                <div class="box-description">
+                  <h2 class="box-description__title">
+                    <span>Growing Business</span>
+                  </h2>
+                  <p class="box-description__text">Додаток</p>
                 </div>
               </a>
             </li>
